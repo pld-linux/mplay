@@ -2,12 +2,12 @@
 Summary:	Console based frontend to MPlayer
 Summary(pl):	Konsolowa nak³adka na MPlayera
 Name:		mplay
-Version:	0.68
+Version:	0.70
 Release:	1
 License:	GPL
 Group:		Applications/Multimedia
 Source0:	http://dl.sourceforge.net/mplay/%{name}-%{version}.tar.gz
-# Source0-md5:	c2f5ce07352ccf1b7effecb28a7f4fd1
+# Source0-md5:	c18e762f74ed02b8a05050eb93429cd0
 Source1:	%{name}.desktop
 URL:		http://mplay.sourceforge.net/
 BuildRequires:	rpm-perlprov
