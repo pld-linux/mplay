@@ -5,7 +5,7 @@ Comment[pl]=Konsolowa nakładka na MPlayera
 Exec=mplay
 Terminal=true
 Type=Application
-Categories=AudioVideo;
+Categories=AudioVideo;Player;
 Encoding=UTF-8
 # vi: encoding=utf-8
 
