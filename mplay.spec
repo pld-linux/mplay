@@ -2,12 +2,12 @@
 Summary:	Console based frontend to MPlayer
 Summary(pl):	Konsolowa nak³adka na MPlayera
 Name:		mplay
-Version:	0.64
+Version:	0.67
 Release:	1
 License:	GPL
 Group:		Applications/Multimedia
 Source0:	http://dl.sourceforge.net/mplay/%{name}-%{version}.tar.gz
-# Source0-md5:	bdcbd448694323b05d3538038db59a59
+# Source0-md5:	9c54e76c0018fdc31af07216889cde18
 Source1:	%{name}.desktop
 URL:		http://mplay.sourceforge.net/
 BuildRequires:	rpm-perlprov
@@ -38,13 +38,15 @@ kila sposobów:
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/%{name},%{_desktopdir}}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/%{name}}
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_mandir}/man1}
 
 sed -e "s#/local/share/#/share/#g" mplay > mplay.tmp
 mv -f mplay.tmp mplay
 
 install mplay $RPM_BUILD_ROOT%{_bindir}
 install help/help_* $RPM_BUILD_ROOT%{_datadir}/%{name}
+install help/mplay.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
@@ -57,3 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
 %{_desktopdir}/*
+%{_mandir}/man1/*
