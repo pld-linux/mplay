@@ -15,6 +15,8 @@ Requires:	mplayer
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_desktopdir	%{_applnkdir}/Multimedia
+
 %description
 mplay is a front-end to MPlayer. It extends its functions in several
 significant ways. It:
