@@ -13,6 +13,7 @@ URL:		http://mplay.sourceforge.net/
 BuildRequires:	rpm-perlprov
 BuildRequires:	sed
 Requires:	mplayer
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
