@@ -6,7 +6,7 @@ Version:	0.73
 Release:	1
 License:	GPL
 Group:		Applications/Multimedia
-Source0:	http://kent.dl.sourceforge.net/sourceforge/mplay/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/mplay/%{name}-%{version}.tar.gz
 # Source0-md5:	db50a78f555b6979165809d22cbb4604
 Source1:	%{name}.desktop
 URL:		http://mplay.sourceforge.net/
