@@ -3,7 +3,7 @@ Summary:	Console based frontend to MPlayer
 Summary(pl):	Konsolowa nak³adka na MPlayera
 Name:		mplay
 Version:	0.57
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Multimedia
 Source0:	http://dl.sourceforge.net/mplay/%{name}-%{version}.tar.gz
