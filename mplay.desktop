@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Mplay
+Comment=Console based frontend to MPlayer
+Comment[pl]=Konsolowa nakładka na MPlayera
+Exec=mplay
+Terminal=true
+Type=Application
+Categories=AudioVideo;
+Encoding=UTF-8
+# vi: encoding=utf-8
+
