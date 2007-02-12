@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Console based frontend to MPlayer
-Summary(pl):	Konsolowa nak³adka na MPlayera
+Summary(pl.UTF-8):   Konsolowa nakÅ‚adka na MPlayera
 Name:		mplay
 Version:	0.80
 Release:	1
@@ -24,13 +24,13 @@ significant ways. It:
 - remembers the position within the track last played before quitting
 - provides basic mixer functions
 
-%description -l pl
-mplay jest nak³adk± na MPlayera rozszerzaj±c± jego funkcjonalno¶æ na
-kila sposobów:
-- zarz±dza listami odtwarzania
+%description -l pl.UTF-8
+mplay jest nakÅ‚adkÄ… na MPlayera rozszerzajÄ…cÄ… jego funkcjonalnoÅ›Ä‡ na
+kila sposobÃ³w:
+- zarzÄ…dza listami odtwarzania
 - dostarcza istotnych informacji na temat statusu
-- wy¶wietla belkê postêpu
-- zapamiêtuje pozycjê ¶cie¿ki, która by³a odtwarzana przed wyj¶ciem
+- wyÅ›wietla belkÄ™ postÄ™pu
+- zapamiÄ™tuje pozycjÄ™ Å›cieÅ¼ki, ktÃ³ra byÅ‚a odtwarzana przed wyjÅ›ciem
 - dostarcza podstawowych funkcji miksera
 
 %prep
