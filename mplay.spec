@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Console based frontend to MPlayer
-Summary(pl.UTF-8):   Konsolowa nakładka na MPlayera
+Summary(pl.UTF-8):	Konsolowa nakładka na MPlayera
 Name:		mplay
 Version:	0.80
 Release:	1
