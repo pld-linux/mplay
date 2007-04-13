@@ -41,8 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/%{name}}
 install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_mandir}/man1}
 
-sed -e "s#/local/share/#/share/#g" mplay > mplay.tmp
-mv -f mplay.tmp mplay
+sed -i "s#/local/share/#/share/#g" mplay
 
 install mplay $RPM_BUILD_ROOT%{_bindir}
 install help/help_* $RPM_BUILD_ROOT%{_datadir}/%{name}
