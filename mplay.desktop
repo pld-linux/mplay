@@ -6,6 +6,4 @@ Exec=mplay
 Terminal=true
 Type=Application
 Categories=AudioVideo;Player;
-Encoding=UTF-8
 # vi: encoding=utf-8
-
